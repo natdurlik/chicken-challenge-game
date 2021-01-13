@@ -9,19 +9,19 @@ The purpose of creating this game was purely educational. I tried to use a lot o
 
 Pixel art by me.
 
-## Design Patterns
-  1. State - altering between game screens, such as Main Menu, Settings etc.
+## Used Design Patterns
+  1. State - altering between game screens, such as Main Menu, Settings etc. In the Game class, methods such as `render()`, `dispose()`, `resize()` delegate state-related work to current game screen.
   2. Singleton - ensuring only one instance of Player class and providing global access to it.
   3. Template method - skeleton of algorithm in `render()` method - used in abstract class GameScreenState, subclasses override some steps.
-  4. Composite - composing drawable objects (graphics) into tree structure.
+  4. Composite - composing drawable objects (graphics) into tree structure, all of them are implementing same interface, so we can call `draw()` and `update()` methods on whole tree.
   5. Prototype - used in spawning Vehicles on Road, radomly producing clones of generic prototypes in prototype registry (VehicleRegitry class, Vehicle has `clone()` method).
-  6. Command - encapsulating commands, such as moving Player, allowing to easily change controls in settings.
-  7. Decorator - attaching new behavior to Command in MenuButton class.
-  8. Adapter - adapting Command to Drawable interface.
+  6. Command - encapsulating commands, such as moving Player, allowing to easily change some controls in settings.
+  7. Decorator - attaching new behavior to DrawableCommand in CommandDecorator class. Used in implementing drawable menu buttons.
+  8. Adapter - used in CommandAdapter. Decided to use Adapter instead of time-consuming rewriting some parts of Command related code.
   9. Strategy - family of interchangeable driving algorithms for Vehicle objects.
   10. Observer - Road (Observable) is notyfing Vehicles (Observer) about certain evens, allowing Vehicles to change their behavior. 
-  11. Flyweight - all instances of MovingSnowflake class share common parts.
-  12. (Null Object - NullCommand class used instead of checking if object is null)
+  11. Flyweight - all instances of MovingSnowflake class share common parts as reference to the model object of Snowflake.
+  12. (Null Object - used in NullCommand - calling `execute()` that will do nothing, instead of checking if command is null)
   
   
 
