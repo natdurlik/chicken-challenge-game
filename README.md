@@ -24,8 +24,8 @@ Pixel art by me.
   12. (Null Object - used in NullCommand - calling `execute()` that will do nothing, instead of checking if command is null)
   
 ## Screenshots
-  ![t](https://ibb.co/bLrzWBW)
-  ![t](https://ibb.co/b6hdv5n)
-  ![t](https://ibb.co/0hRxhYf)
-  ![t](https://ibb.co/HTxQx69)
+  ![Main Menu](https://i.ibb.co/72dq2rG/in-menu1.png)
+  ![Settings](https://i.ibb.co/LdJfJms/in-menu2.png)
+  ![In Game](https://i.ibb.co/Qn6rbNb/in-game1.png)
+  ![Level Up](https://i.ibb.co/fXR0Nd7/in-game2.png)
 
