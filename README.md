@@ -1,7 +1,7 @@
 # Chicken Challenge
 Small game with focus on using Design Patterns.
 ## About
-Your main goal in this game is to cross the road as a small chicken. Watch out, as some vehicle behavior can be unpredictable. After successfully crossing streets, the next map is generated randomly, hp points restored and level increased. 
+Your main goal in this game is to cross the road as a small chicken. Watch out, as some vehicle behavior can be unpredictable. After successfully crossing the street, you are moved to the next, randomly generated level with restored health points.
 
 For controling your character use arrows (<- and ->) or change controls in Settings Menu. Use arrows and enter to navigate through menus and q to quit to the main menu/quit the game. 
 
