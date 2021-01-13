@@ -7,6 +7,8 @@ For controling your character use arrows (<- and ->) or change controls in Setti
 
 The purpose of creating this game was purely educational. I tried to use a lot of design patterns and follow object-oriented design principles, even if some of them weren't necessary in this small project.
 
+I used LibGDX library.
+
 Pixel art by me.
 
 ## Used Design Patterns
