@@ -23,5 +23,9 @@ Pixel art by me.
   11. Flyweight - all instances of MovingSnowflake class share common parts as reference to the model object of Snowflake.
   12. (Null Object - used in NullCommand - calling `execute()` that will do nothing, instead of checking if command is null)
   
-  
+## Screenshots
+  ![t](https://ibb.co/bLrzWBW)
+  ![t](https://ibb.co/b6hdv5n)
+  ![t](https://ibb.co/0hRxhYf)
+  ![t](https://ibb.co/HTxQx69)
 
